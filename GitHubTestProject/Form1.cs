@@ -19,7 +19,7 @@ namespace GitHubTestProject
 
         private void btnShow_Click(object sender, EventArgs e)
         {
-            lblDay.Text = DateTime.Now.DayOfWeek.ToString();
+            lblDay.Text = "Today is "+ DateTime.Now.DayOfWeek.ToString();
         }
     }
 }
