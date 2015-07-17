@@ -16,5 +16,10 @@ namespace GitHubTestProject
         {
             InitializeComponent();
         }
+
+        private void btnShow_Click(object sender, EventArgs e)
+        {
+            lblDay.Text = DateTime.Now.DayOfWeek.ToString();
+        }
     }
 }
