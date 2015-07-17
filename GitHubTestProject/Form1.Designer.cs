@@ -34,7 +34,7 @@
             // 
             // btnShow
             // 
-            this.btnShow.Location = new System.Drawing.Point(168, 135);
+            this.btnShow.Location = new System.Drawing.Point(630, 44);
             this.btnShow.Name = "btnShow";
             this.btnShow.Size = new System.Drawing.Size(75, 48);
             this.btnShow.TabIndex = 0;
@@ -46,7 +46,7 @@
             // 
             this.lblDay.AutoSize = true;
             this.lblDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDay.Location = new System.Drawing.Point(132, 42);
+            this.lblDay.Location = new System.Drawing.Point(12, 19);
             this.lblDay.Name = "lblDay";
             this.lblDay.Size = new System.Drawing.Size(146, 73);
             this.lblDay.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(410, 195);
+            this.ClientSize = new System.Drawing.Size(717, 118);
             this.Controls.Add(this.lblDay);
             this.Controls.Add(this.btnShow);
             this.Name = "Form1";
